@@ -10,7 +10,7 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Build image # (callout-2)
-        run:  docker build ./basic-auth/Dockerfile -t basic-auth:latest
+        run:  docker build ./basic-auth/. -t basic-auth:latest
 
       - name: Install doctl # (callout-3)
         uses: digitalocean/action-doctl@v2
