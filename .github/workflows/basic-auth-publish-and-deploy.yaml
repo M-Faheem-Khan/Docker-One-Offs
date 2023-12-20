@@ -1,5 +1,4 @@
-
-name: [Basic Auth] Publish & Deploy
+name: Basic Auth - Publish & Deploy
 
 on: [workflow-dispatch]
 
